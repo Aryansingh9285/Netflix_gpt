@@ -4,7 +4,7 @@ import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser, removeUser } from "../utils/userslice";
-import { LOGO ,USER_Avtar} from "../utils/constant";
+import { LOGO ,USER_AVTAR} from "../utils/constant";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -51,7 +51,7 @@ const Header = () => {
       {user && (<div className="flex items-center space-x-4">
         <img
           className="h-10 w-10 rounded-full object-cover"
-          src={user?.photoURL || USER_Avtar}
+          src={user?.photoURL || USER_AVTAR}
           alt="User Icon"
         />
         <button
