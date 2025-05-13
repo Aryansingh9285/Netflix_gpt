@@ -17,7 +17,9 @@
 - Deploying our app to Production
 - Create Signup User Account
 -Create redux store with UserSlice.
+- Reagistre for TMDB api
 - Fetch Movie from TMDB ❓
+
 
 
 # Features
