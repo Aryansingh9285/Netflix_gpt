@@ -18,7 +18,14 @@
 - Create Signup User Account
 -Create redux store with UserSlice.
 - Reagistre for TMDB api
-- Fetch Movie from TMDB ❓
+- Fetch Movie from TMDB 
+- Custom Hook for now Palying  MOvies 
+- create Movieslice 
+- upadets store with movie data 
+- palnning for MainContainer & secondary conatiner
+- fetch dtaa for trailer video
+- update store with trailer Video data
+- Embedded the youtube video and make it autoplay and muted
 
 
 
