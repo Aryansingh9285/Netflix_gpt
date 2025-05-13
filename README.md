@@ -26,6 +26,11 @@
 - fetch dtaa for trailer video
 - update store with trailer Video data
 - Embedded the youtube video and make it autoplay and muted
+- bUild the  secondary component
+- build movie list
+- tmdb liange cdn url
+- make the browser page awazing with tailwind csss
+- build some custom hook
 
 
 

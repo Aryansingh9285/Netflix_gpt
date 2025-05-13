@@ -41,7 +41,7 @@ const Header = () => {
       return () =>unsubscribed();
     }, []);
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black via-black/80 to-transparent flex justify-between">
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black via-black/80 to-transparent flex justify-between z-50">
       <img
         className="w-44"
         src={LOGO}
@@ -55,7 +55,7 @@ const Header = () => {
           alt="User Icon"
         />
         <button
-          className="px-4 py-2 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-600 transition duration-300"
+          className="flex px-4 py-2 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-600 transition duration-300"
           onClick={handelsignout}
         >
           Sign out
