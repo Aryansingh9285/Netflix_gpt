@@ -16,7 +16,7 @@
 - Firebase Setup
 - Deploying our app to Production
 - Create Signup User Account
--Create redux store with UserSlice.
+- Create redux store with UserSlice.
 - Reagistre for TMDB api
 - Fetch Movie from TMDB 
 - Custom Hook for now Palying  MOvies 
@@ -31,6 +31,7 @@
 - tmdb liange cdn url
 - make the browser page awazing with tailwind csss
 - build some custom hook
+- GPT search Faeture
 
 
 
