@@ -32,6 +32,8 @@
 - make the browser page awazing with tailwind csss
 - build some custom hook
 - GPT search Faeture
+-Multi-language feature in our App
+- Integrate GPT Api(get open api keys)
 
 
 
