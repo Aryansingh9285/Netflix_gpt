@@ -54,19 +54,23 @@ const Header = () => {
   }, [dispatch, navigate]);
 
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black via-black/80 to-transparent flex justify-between z-50">
-      <img className="w-44" src={LOGO} alt="Netflix Logo" />
+    <div className="absolute w-full px-2 md:px-8 py-2 bg-gradient-to-b from-black via-black/80 to-transparent flex flex-col md:flex-row justify-between items-center z-50">
+      <img 
+        className="w-28 sm:w-32 md:w-44 mx-auto md:mx-0" 
+        src={LOGO} 
+        alt="Netflix Logo" 
+      />
 
       {user && (
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-wrap items-center justify-center md:justify-end gap-2 md:gap-4 mt-4 md:mt-0 w-full md:w-auto">
           <img
-            className="h-10 w-10 rounded-full object-cover"
+            className="h-8 w-8 md:h-10 md:w-10 rounded-full object-cover"
             src={user.photoURL || USER_AVTAR}
             alt="User Icon"
           />
           {showGptSearch && (
             <select
-              className="bg-gray-800 text-gray-300 px-2 py-1 rounded"
+              className="w-32 sm:w-auto bg-gray-800 text-gray-300 px-2 py-1 rounded text-xs sm:text-sm md:text-base"
               onChange={handelLanguageChange}
             >
               {SUPPORTED_LANGUAGES.map((lang) => (
@@ -77,13 +81,13 @@ const Header = () => {
             </select>
           )}
           <button
-            className="px-4 py-2 bg-blue-400 text-black font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+            className="w-28 sm:w-auto px-2 md:px-4 py-1 md:py-2 bg-blue-400 text-black text-xs sm:text-sm md:text-base font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
             onClick={handleGptSearch}
           >
-            {showGptSearch ?"Home":"Gpt Search"}
+            {showGptSearch ? "Home" : "GPT Search"}
           </button>
           <button
-            className="px-4 py-2 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-600 transition duration-300"
+            className="w-28 sm:w-auto px-2 md:px-4 py-1 md:py-2 bg-red-500 text-white text-xs sm:text-sm md:text-base font-semibold rounded-lg shadow-md hover:bg-red-600 transition duration-300"
             onClick={handleSignOut}
           >
             Sign out
