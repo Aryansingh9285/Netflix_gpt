@@ -1,5 +1,5 @@
 export const BOLLYWOOD_MOVIES = {
-    "action": [
+  action: [
     "Don",
     "Dhoom",
     "War",
@@ -49,7 +49,8 @@ export const BOLLYWOOD_MOVIES = {
     "Border 2",
     "Surgical Strike 2"
   ],
-    "romance": [
+
+  romance: [
     "Dilwale Dulhania Le Jayenge",
     "Kuch Kuch Hota Hai",
     "Jab We Met",
@@ -58,7 +59,7 @@ export const BOLLYWOOD_MOVIES = {
     "Kabhi Khushi Kabhie Gham",
     "Dil To Pagal Hai",
     "Mohabbatein",
-    "Kal Ho Naa Ho",
+    "Kal Ho Naa Ho", 
     "Devdas",
     "Loveyapa",
     "Bhool Chuk Maaf",
@@ -93,7 +94,8 @@ export const BOLLYWOOD_MOVIES = {
     "Hum Tum",
     "Kabhi Alvida Naa Kehna"
   ],
-  default: [
+
+  sifi: [
     "Inception",
     "The Dark Knight",
     "Interstellar",
@@ -141,6 +143,48 @@ export const BOLLYWOOD_MOVIES = {
     "Queen"
   ],
 
+  comedy: [
+    "Hera Pheri",
+    "Chupke Chupke",
+    "Andaz Apna Apna",
+    "Golmaal",
+    "Welcome",
+    "Phir Hera Pheri",
+    "Bhool Bhulaiyaa",
+    "Housefull",
+    "Dhamaal",
+    "Chennai Express",
+    "Munna Bhai M.B.B.S.",
+    "Lage Raho Munna Bhai",
+    "Bheja Fry"
+  ],
 
-  }
+  thriller: [
+    "Drishyam",
+    "Kahaani",
+    "A Wednesday",
+    "Special 26",
+    "Talaash",
+    "Badla",
+    "Andhadhun",
+    "Ratsasan",
+    "Ek Hasina Thi",
+    "NH10",
+    "Table No. 21",
+    "Johnny Gaddaar",
+    "Ittefaq"
+  ],
 
+  default: [
+    "3 Idiots",
+    "Lagaan",
+    "Dangal",
+    "Barfi",
+    "Queen",
+    "PK",
+    "Taare Zameen Par",
+    "Swades",
+    "Chak De! India",
+    "Zindagi Na Milegi Dobara"
+  ]
+};
